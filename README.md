@@ -4,15 +4,18 @@
 
 ### Introduction
 
-This a simplified Java port of [Suren Atoyan's JavaScript Christmas Tree](https://github.com/suren-atoyan/Christmas-Tree)!
-The source code is formatted in the shape of christmas tree. During execution it
+This repo contains a simplified fork of [Suren Atoyan's JavaScript Christmas Tree](https://github.com/suren-atoyan/Christmas-Tree) written in Java!
+
+The source code is formatted in the shape of a Christmas Tree. During execution it
 
  - plays Jingle Bells
- - prints it's own code line by line
+ - prints its own code line by line
+
+![alt demo](./assets/demo.gif)
 
 ### How to get it
 
-Simply clone the repo:
+It is enough to clone the repo:
 
 ```bash
 git clone https://github.com/azzazzel/Java-Christmas-Tree.git
@@ -20,7 +23,7 @@ git clone https://github.com/azzazzel/Java-Christmas-Tree.git
 
 ### How to run it on a Unix/Linux based system
 
-Make sure you have Java 11 or newer installed and properly configured.
+You need Java 11 or newer installed and properly configured.
 Make sure the `ct` file in `Java-Christmas-Tree` is executable.
 Then just
 
@@ -35,7 +38,7 @@ cd Java-Christmas-Tree/
 
 ### How it works
 
-The `ct` file is a Java file even though it does not have the `.java` extention. It is executed directly thanks to [JEP 330: Launch Single-File Source-Code Programs](https://openjdk.java.net/jeps/330) and the "Shebang" support it provides.
+The `ct` file is a Java file even though it does not have the `.java` extension. You can execute it directly thanks to [JEP 330: Launch Single-File Source-Code Programs](https://openjdk.java.net/jeps/330) and the "Shebang" support it provides.
 
 
 ## License
